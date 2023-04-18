@@ -51,7 +51,18 @@ You can also see log messages from the worker in the console.
 
 ### Test on v 3.1.0
 
-Edit the ```package.json``` and change the "nuxt" dependency to "3.1.0".
+Edit the ```package.json``` and change the "nuxt" dependency to "3.1.0", then install the new version.
+
+```bash
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install
+```
 
 Build the application for production:
 
